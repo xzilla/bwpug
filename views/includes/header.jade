@@ -1,12 +1,29 @@
-p
-  a(href='/') Home
-  | 
-  a(href='/about') About
-  | 
-  a(href='/schedule') Schedule
-  | 
-  a(href='/register') Register
-  | 
-  a(href='/sponsor') Sponsor
-  | 
-  a(href='/contact') Contact
+div#pgHeaderContainer
+  div#pgHeader
+    div#pgHeaderLogoLeft
+      a(href='/') 
+        img(alt="PostgreSQL",src="/images/bwpug-eb.png",height="80") 
+    div#pgHeaderCenter
+    div#pgHeaderLogoRight
+      a(href='/') 
+        img(width="210",height="80",alt="The world's most advanced open source database.",src="/images/hdr_right.png")
+  div#pgTopNav
+    div#pgTopNavLeft
+      img(width="7",height="23",alt="",src="/images/nav_lft.png")
+    div#pgTopNavRight
+      img(width="7",height="23",alt="",src="/images/nav_rgt.png")
+    ul#pgTopNavList 
+      li 
+        a(href='/') Home
+      li 
+        a(href='/about') About
+      li 
+        a(href='/schedule') Schedule
+      li 
+        a(href='/venue') Venue
+      li 
+        a(href='/register') Register
+      li 
+        a(href='/sponsor') Sponsor
+      li 
+        a(href='/contact') Contact

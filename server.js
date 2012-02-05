@@ -50,6 +50,12 @@ app.get('/schedule', function(req, res){
     });
 });
 
+app.get('/venue', function(req, res){
+    res.render('venue', {
+        title: 'Venue'
+    });
+});
+
 app.get('/register', function(req, res){
     res.render('register', {
         title: 'Register'

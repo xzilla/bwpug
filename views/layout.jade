@@ -2,8 +2,11 @@
 html
   head
     title Baltimore / Washington Postgres User Group - PG Corridor Days DC 2012 - #{title}
+    link(href="/stylesheets/screen.css", media="screen", rel="stylesheet", type="text/css")
   body
-    include includes/header
-    h1 Content goes here 
-    #container!= body
-    include includes/sponsors
+    div#pgContainerWrap
+      div#pgContainer
+        include includes/header
+        div#pgContent
+          #container!= body
+          include includes/sponsors
