@@ -31,6 +31,11 @@
   margin: 0;
   padding: 0;
   clear: both;
+  background: url("/images/hdr_fill.png") repeat-x;
+  -ms-border-radius: 13px
+  -moz-border-radius: 13px;
+  -webkit-border-radius: 13px;
+  border-radius: 13px;
 }
 
 #pgHeaderLogoLeft {
@@ -51,7 +56,6 @@
 
 #pgHeaderCenter {
   float:left;
-  background: url("/images/hdr_fill.png") repeat-x;
   width: 574px; 
   height: 80px;
 }
