@@ -1,0 +1,3 @@
+This code is used to run the bwpug website. It is implemented in node.js, using express and jade. 
+We currently run this on the nodester platform, though it should work from any place node can run.
+You can view the live site at pgday.bwpug.org. 
