@@ -56,6 +56,12 @@ app.get('/venue', function(req, res){
     });
 });
 
+app.get('/hotels', function(req, res){
+    res.render('hotels', {
+        title: 'Hotels'
+    });
+});
+
 app.get('/register', function(req, res){
     res.render('register', {
         title: 'Register'
